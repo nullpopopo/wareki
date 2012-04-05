@@ -1,1 +1,17 @@
-西暦和暦変換スクリプトをbashで実装してみる
+西暦和暦変換スクリプトをbashで実装してみる - wareki.sh -
+
+つかいかた
+
+1   ${HOME}/bin などpathの通ったディレクトリに
+    wareki.sh を放り込む
+
+2   wareki.sh に実行権をつける
+    ex)
+    $ chmod 755 /home/oresama/bin/wareki.sh
+
+3   引数に何かしらの数字をつけて実行する。
+    今年の西暦と和暦を知りたい場合は引数を 0 とする。
+    ex)
+    $ wareki.sh 0
+
+和暦の何年から表示可能かはglibcの実装によります。
