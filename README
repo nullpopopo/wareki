@@ -1,5 +1,9 @@
 西暦和暦変換スクリプトをbashで実装してみる - wareki.sh -
 
+対応OS
+CentOS 5.x
+CentOS 6.x
+
 つかいかた
 
 1   ${HOME}/bin などpathの通ったディレクトリに
