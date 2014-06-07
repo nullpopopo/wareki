@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 LANG=ja_JP.utf8
 
 case $1 in
